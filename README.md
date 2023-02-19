@@ -1,4 +1,5 @@
-## Solidity
+# Solidity
+## Basic Overview
 **What is Solidity?** 
 - Contract-oriented, static-typed high level programming language.
 - Used for implementing smart contracts.
@@ -21,3 +22,15 @@
 - Focuses on providing security and executing untrusted code by computers all over the world.
 - Computational engine which acts like a decentralized computer that has millions of executable projects.
 - Virtual computer used by developers to create decentralized applications.
+<hr />
+
+## Environment Setup using npm/Node.js
+1. Install Node.js and node package manager npm
+
+    ![image](https://user-images.githubusercontent.com/51270026/219952717-108a80f0-9900-4a3d-92ff-3f2959fa6e14.png)
+
+2. Install Solidity Compiler - solc
+
+    ![image](https://user-images.githubusercontent.com/51270026/219952857-7fb62263-234a-490b-83b2-74b1e62e1366.png)
+    
+
