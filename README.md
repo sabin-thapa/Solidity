@@ -32,5 +32,27 @@
 2. Install Solidity Compiler - solc
 
     ![image](https://user-images.githubusercontent.com/51270026/219952857-7fb62263-234a-490b-83b2-74b1e62e1366.png)
-    
+ <hr />  
+ 
+### **Basic Syntax**
+A Solidity source files can contain an any number of contract definitions, import directives and pragma directives.
+```
+    pragma solidity >=0.4.0 <0.6.0;
+    contract SimpleStorage {
+        unit storedData;
+        function set(uint x) public {
+            storedData = x;
+        }
+        function get() public view returns (uint( {
+            return storedData;
+        }
+    }
+```
+**Pragma**: 
+- The first line is a pragma directive which tells that the source code is written for Solidity version 0.4.0 or anything newever that does not break functionality upto, but not including, version 0.6.0.
+- A pragma directive is alwaus local to a source file and if you import another file, the pragma from that file will not automatically apply to the importing file.
 
+**Contract**:
+- A Solidity contract is a collection of code (its functions) and data (its state) that resides at a specific address on the Ethereum blockchain.
+- The line uintstoredData declares a state variable called storedData of type uint and the functions set and get can be used to modify or retrieve the value of the variable.
+<hr />
