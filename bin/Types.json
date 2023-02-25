@@ -1,0 +1,580 @@
+{
+    "contractName": "Types",
+    "abi": [
+        {
+            "inputs": [],
+            "name": "get_choice",
+            "outputs": [
+                {
+                    "internalType": "enum Types.week_days",
+                    "name": "",
+                    "type": "uint8"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "name": "getdefaultvalue",
+            "outputs": [
+                {
+                    "internalType": "enum Types.week_days",
+                    "name": "",
+                    "type": "uint8"
+                }
+            ],
+            "stateMutability": "pure",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "name": "set_value",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
+        }
+    ],
+    "metadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"get_choice\",\"outputs\":[{\"internalType\":\"enum Types.week_days\",\"name\":\"\",\"type\":\"uint8\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getdefaultvalue\",\"outputs\":[{\"internalType\":\"enum Types.week_days\",\"name\":\"\",\"type\":\"uint8\"}],\"stateMutability\":\"pure\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"set_value\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/home/sabinthapa/Desktop/Solidity/enums.sol\":\"Types\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/sabinthapa/Desktop/Solidity/enums.sol\":{\"keccak256\":\"0x41c20a2a9c587a16b321a2681144e6b3a5a8c565d280453201c1a11618ff23fc\",\"urls\":[\"bzz-raw://13c5f607cd18c2c501a4e0a371f3d8c6ba6d0b5b001a1d4613c105270ca4b44e\",\"dweb:/ipfs/QmQXFCTQ5HJnRcVGFibjgJbHeEMPGdioXiDeydLNif33b9\"]}},\"version\":1}",
+    "bytecode": "608060405234801561001057600080fd5b5060d58061001f6000396000f3fe6080604052348015600f57600080fd5b5060043610603c5760003560e01c8063630f7035146041578063bd72e4fc146061578063f1388f46146067575b600080fd5b600054610100900460ff165b604051605891906078565b60405180910390f35b6006604d565b6000805461ff001916610300179055005b6020810160078310609957634e487b7160e01b600052602160045260246000fd5b9190529056fea2646970667358221220101f72f380b43f9340c0a780fb6fdf62ac2fd234b6e4b7407c041fdcecf75bbb64736f6c63430008130033",
+    "deployedBytecode": "6080604052348015600f57600080fd5b5060043610603c5760003560e01c8063630f7035146041578063bd72e4fc146061578063f1388f46146067575b600080fd5b600054610100900460ff165b604051605891906078565b60405180910390f35b6006604d565b6000805461ff001916610300179055005b6020810160078310609957634e487b7160e01b600052602160045260246000fd5b9190529056fea2646970667358221220101f72f380b43f9340c0a780fb6fdf62ac2fd234b6e4b7407c041fdcecf75bbb64736f6c63430008130033",
+    "sourceMap": "110:700:0:-:0;;;;;;;;;;;;;;;;;;;",
+    "deployedSourceMap": "110:700:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;590:76;635:9;656:6;;;;;;590:76;;;;;;;:::i;:::-;;;;;;;;720:88;399:16;720:88;;471:62;502:6;:27;;-1:-1:-1;;502:27:0;;;;;471:62;146:339:1;289:2;274:18;;322:1;311:13;;301:144;;367:10;362:3;358:20;355:1;348:31;402:4;399:1;392:15;430:4;427:1;420:15;301:144;454:25;;;146:339;:::o",
+    "sourcePath": "/home/sabinthapa/Desktop/Solidity/enums.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.8.19+commit.7dd6d404"
+    },
+    "ast": {
+        "absolutePath": "/home/sabinthapa/Desktop/Solidity/enums.sol",
+        "exportedSymbols": {
+            "Types": [
+                48
+            ]
+        },
+        "id": 49,
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 1,
+                "literals": [
+                    "solidity",
+                    "^",
+                    "0.8",
+                    ".0"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "62:23:0"
+            },
+            {
+                "abstract": false,
+                "baseContracts": [],
+                "canonicalName": "Types",
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 48,
+                "linearizedBaseContracts": [
+                    48
+                ],
+                "name": "Types",
+                "nameLocation": "119:5:0",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "canonicalName": "Types.week_days",
+                        "id": 9,
+                        "members": [
+                            {
+                                "id": 2,
+                                "name": "Monday",
+                                "nameLocation": "175:6:0",
+                                "nodeType": "EnumValue",
+                                "src": "175:6:0"
+                            },
+                            {
+                                "id": 3,
+                                "name": "Tuesday",
+                                "nameLocation": "184:7:0",
+                                "nodeType": "EnumValue",
+                                "src": "184:7:0"
+                            },
+                            {
+                                "id": 4,
+                                "name": "Wednesday",
+                                "nameLocation": "194:9:0",
+                                "nodeType": "EnumValue",
+                                "src": "194:9:0"
+                            },
+                            {
+                                "id": 5,
+                                "name": "Thursday",
+                                "nameLocation": "206:8:0",
+                                "nodeType": "EnumValue",
+                                "src": "206:8:0"
+                            },
+                            {
+                                "id": 6,
+                                "name": "Friday",
+                                "nameLocation": "217:6:0",
+                                "nodeType": "EnumValue",
+                                "src": "217:6:0"
+                            },
+                            {
+                                "id": 7,
+                                "name": "Saturday",
+                                "nameLocation": "226:8:0",
+                                "nodeType": "EnumValue",
+                                "src": "226:8:0"
+                            },
+                            {
+                                "id": 8,
+                                "name": "Sunday",
+                                "nameLocation": "237:6:0",
+                                "nodeType": "EnumValue",
+                                "src": "237:6:0"
+                            }
+                        ],
+                        "name": "week_days",
+                        "nameLocation": "161:9:0",
+                        "nodeType": "EnumDefinition",
+                        "src": "156:90:0"
+                    },
+                    {
+                        "constant": false,
+                        "id": 12,
+                        "mutability": "mutable",
+                        "name": "week",
+                        "nameLocation": "306:4:0",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 48,
+                        "src": "296:14:0",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_enum$_week_days_$9",
+                            "typeString": "enum Types.week_days"
+                        },
+                        "typeName": {
+                            "id": 11,
+                            "nodeType": "UserDefinedTypeName",
+                            "pathNode": {
+                                "id": 10,
+                                "name": "week_days",
+                                "nameLocations": [
+                                    "296:9:0"
+                                ],
+                                "nodeType": "IdentifierPath",
+                                "referencedDeclaration": 9,
+                                "src": "296:9:0"
+                            },
+                            "referencedDeclaration": 9,
+                            "src": "296:9:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_enum$_week_days_$9",
+                                "typeString": "enum Types.week_days"
+                            }
+                        },
+                        "visibility": "internal"
+                    },
+                    {
+                        "constant": false,
+                        "id": 15,
+                        "mutability": "mutable",
+                        "name": "choice",
+                        "nameLocation": "325:6:0",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 48,
+                        "src": "315:16:0",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_enum$_week_days_$9",
+                            "typeString": "enum Types.week_days"
+                        },
+                        "typeName": {
+                            "id": 14,
+                            "nodeType": "UserDefinedTypeName",
+                            "pathNode": {
+                                "id": 13,
+                                "name": "week_days",
+                                "nameLocations": [
+                                    "315:9:0"
+                                ],
+                                "nodeType": "IdentifierPath",
+                                "referencedDeclaration": 9,
+                                "src": "315:9:0"
+                            },
+                            "referencedDeclaration": 9,
+                            "src": "315:9:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_enum$_week_days_$9",
+                                "typeString": "enum Types.week_days"
+                            }
+                        },
+                        "visibility": "internal"
+                    },
+                    {
+                        "constant": true,
+                        "id": 20,
+                        "mutability": "constant",
+                        "name": "default_value",
+                        "nameLocation": "382:13:0",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 48,
+                        "src": "363:52:0",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_enum$_week_days_$9",
+                            "typeString": "enum Types.week_days"
+                        },
+                        "typeName": {
+                            "id": 17,
+                            "nodeType": "UserDefinedTypeName",
+                            "pathNode": {
+                                "id": 16,
+                                "name": "week_days",
+                                "nameLocations": [
+                                    "363:9:0"
+                                ],
+                                "nodeType": "IdentifierPath",
+                                "referencedDeclaration": 9,
+                                "src": "363:9:0"
+                            },
+                            "referencedDeclaration": 9,
+                            "src": "363:9:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_enum$_week_days_$9",
+                                "typeString": "enum Types.week_days"
+                            }
+                        },
+                        "value": {
+                            "expression": {
+                                "id": 18,
+                                "name": "week_days",
+                                "nodeType": "Identifier",
+                                "overloadedDeclarations": [],
+                                "referencedDeclaration": 9,
+                                "src": "399:9:0",
+                                "typeDescriptions": {
+                                    "typeIdentifier": "t_type$_t_enum$_week_days_$9_$",
+                                    "typeString": "type(enum Types.week_days)"
+                                }
+                            },
+                            "id": 19,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": true,
+                            "lValueRequested": false,
+                            "memberLocation": "409:6:0",
+                            "memberName": "Sunday",
+                            "nodeType": "MemberAccess",
+                            "referencedDeclaration": 8,
+                            "src": "399:16:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_enum$_week_days_$9",
+                                "typeString": "enum Types.week_days"
+                            }
+                        },
+                        "visibility": "internal"
+                    },
+                    {
+                        "body": {
+                            "id": 28,
+                            "nodeType": "Block",
+                            "src": "499:34:0",
+                            "statements": [
+                                {
+                                    "expression": {
+                                        "id": 26,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "lValueRequested": false,
+                                        "leftHandSide": {
+                                            "id": 23,
+                                            "name": "choice",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 15,
+                                            "src": "502:6:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_enum$_week_days_$9",
+                                                "typeString": "enum Types.week_days"
+                                            }
+                                        },
+                                        "nodeType": "Assignment",
+                                        "operator": "=",
+                                        "rightHandSide": {
+                                            "expression": {
+                                                "id": 24,
+                                                "name": "week_days",
+                                                "nodeType": "Identifier",
+                                                "overloadedDeclarations": [],
+                                                "referencedDeclaration": 9,
+                                                "src": "511:9:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_type$_t_enum$_week_days_$9_$",
+                                                    "typeString": "type(enum Types.week_days)"
+                                                }
+                                            },
+                                            "id": 25,
+                                            "isConstant": false,
+                                            "isLValue": false,
+                                            "isPure": true,
+                                            "lValueRequested": false,
+                                            "memberLocation": "521:8:0",
+                                            "memberName": "Thursday",
+                                            "nodeType": "MemberAccess",
+                                            "referencedDeclaration": 5,
+                                            "src": "511:18:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_enum$_week_days_$9",
+                                                "typeString": "enum Types.week_days"
+                                            }
+                                        },
+                                        "src": "502:27:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_enum$_week_days_$9",
+                                            "typeString": "enum Types.week_days"
+                                        }
+                                    },
+                                    "id": 27,
+                                    "nodeType": "ExpressionStatement",
+                                    "src": "502:27:0"
+                                }
+                            ]
+                        },
+                        "functionSelector": "f1388f46",
+                        "id": 29,
+                        "implemented": true,
+                        "kind": "function",
+                        "modifiers": [],
+                        "name": "set_value",
+                        "nameLocation": "480:9:0",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 21,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "489:2:0"
+                        },
+                        "returnParameters": {
+                            "id": 22,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "499:0:0"
+                        },
+                        "scope": 48,
+                        "src": "471:62:0",
+                        "stateMutability": "nonpayable",
+                        "virtual": false,
+                        "visibility": "public"
+                    },
+                    {
+                        "body": {
+                            "id": 37,
+                            "nodeType": "Block",
+                            "src": "646:20:0",
+                            "statements": [
+                                {
+                                    "expression": {
+                                        "id": 35,
+                                        "name": "choice",
+                                        "nodeType": "Identifier",
+                                        "overloadedDeclarations": [],
+                                        "referencedDeclaration": 15,
+                                        "src": "656:6:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_enum$_week_days_$9",
+                                            "typeString": "enum Types.week_days"
+                                        }
+                                    },
+                                    "functionReturnParameters": 34,
+                                    "id": 36,
+                                    "nodeType": "Return",
+                                    "src": "649:13:0"
+                                }
+                            ]
+                        },
+                        "functionSelector": "630f7035",
+                        "id": 38,
+                        "implemented": true,
+                        "kind": "function",
+                        "modifiers": [],
+                        "name": "get_choice",
+                        "nameLocation": "599:10:0",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 30,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "609:4:0"
+                        },
+                        "returnParameters": {
+                            "id": 34,
+                            "nodeType": "ParameterList",
+                            "parameters": [
+                                {
+                                    "constant": false,
+                                    "id": 33,
+                                    "mutability": "mutable",
+                                    "name": "",
+                                    "nameLocation": "-1:-1:-1",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 38,
+                                    "src": "635:9:0",
+                                    "stateVariable": false,
+                                    "storageLocation": "default",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_enum$_week_days_$9",
+                                        "typeString": "enum Types.week_days"
+                                    },
+                                    "typeName": {
+                                        "id": 32,
+                                        "nodeType": "UserDefinedTypeName",
+                                        "pathNode": {
+                                            "id": 31,
+                                            "name": "week_days",
+                                            "nameLocations": [
+                                                "635:9:0"
+                                            ],
+                                            "nodeType": "IdentifierPath",
+                                            "referencedDeclaration": 9,
+                                            "src": "635:9:0"
+                                        },
+                                        "referencedDeclaration": 9,
+                                        "src": "635:9:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_enum$_week_days_$9",
+                                            "typeString": "enum Types.week_days"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                }
+                            ],
+                            "src": "634:11:0"
+                        },
+                        "scope": 48,
+                        "src": "590:76:0",
+                        "stateMutability": "view",
+                        "virtual": false,
+                        "visibility": "public"
+                    },
+                    {
+                        "body": {
+                            "id": 46,
+                            "nodeType": "Block",
+                            "src": "780:28:0",
+                            "statements": [
+                                {
+                                    "expression": {
+                                        "id": 44,
+                                        "name": "default_value",
+                                        "nodeType": "Identifier",
+                                        "overloadedDeclarations": [],
+                                        "referencedDeclaration": 20,
+                                        "src": "791:13:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_enum$_week_days_$9",
+                                            "typeString": "enum Types.week_days"
+                                        }
+                                    },
+                                    "functionReturnParameters": 43,
+                                    "id": 45,
+                                    "nodeType": "Return",
+                                    "src": "784:20:0"
+                                }
+                            ]
+                        },
+                        "functionSelector": "bd72e4fc",
+                        "id": 47,
+                        "implemented": true,
+                        "kind": "function",
+                        "modifiers": [],
+                        "name": "getdefaultvalue",
+                        "nameLocation": "729:15:0",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 39,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "744:4:0"
+                        },
+                        "returnParameters": {
+                            "id": 43,
+                            "nodeType": "ParameterList",
+                            "parameters": [
+                                {
+                                    "constant": false,
+                                    "id": 42,
+                                    "mutability": "mutable",
+                                    "name": "",
+                                    "nameLocation": "-1:-1:-1",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 47,
+                                    "src": "769:9:0",
+                                    "stateVariable": false,
+                                    "storageLocation": "default",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_enum$_week_days_$9",
+                                        "typeString": "enum Types.week_days"
+                                    },
+                                    "typeName": {
+                                        "id": 41,
+                                        "nodeType": "UserDefinedTypeName",
+                                        "pathNode": {
+                                            "id": 40,
+                                            "name": "week_days",
+                                            "nameLocations": [
+                                                "769:9:0"
+                                            ],
+                                            "nodeType": "IdentifierPath",
+                                            "referencedDeclaration": 9,
+                                            "src": "769:9:0"
+                                        },
+                                        "referencedDeclaration": 9,
+                                        "src": "769:9:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_enum$_week_days_$9",
+                                            "typeString": "enum Types.week_days"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                }
+                            ],
+                            "src": "768:11:0"
+                        },
+                        "scope": 48,
+                        "src": "720:88:0",
+                        "stateMutability": "pure",
+                        "virtual": false,
+                        "visibility": "public"
+                    }
+                ],
+                "scope": 49,
+                "src": "110:700:0",
+                "usedErrors": []
+            }
+        ],
+        "src": "62:749:0"
+    },
+    "functionHashes": {
+        "get_choice()": "630f7035",
+        "getdefaultvalue()": "bd72e4fc",
+        "set_value()": "f1388f46"
+    },
+    "gasEstimates": {
+        "creation": {
+            "codeDepositCost": "42600",
+            "executionCost": "93",
+            "totalCost": "42693"
+        },
+        "external": {
+            "get_choice()": "2323",
+            "getdefaultvalue()": "239",
+            "set_value()": "24366"
+        }
+    }
+}

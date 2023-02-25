@@ -127,13 +127,15 @@ Solidity supports three types of variables:
   3. Private: can be accessed only internally from the current contract they are defied not in the derived contrac from it.
 
 <hr />
+
 ### Operators
+
 - Following types of operators are supported:
-    1. Arithmetic (+, -, *, /, %, ++, --)
-    2. Comparison (==, !=, >, <, >=. <=)
-    3. Logical/Relational (&&, ||, !)
-    4. Assignment ( = , +=, -=. *=, /=, %=)
-    5. Conditional/Ternary (?:)
+  1. Arithmetic (+, -, \*, /, %, ++, --)
+  2. Comparison (==, !=, >, <, >=. <=)
+  3. Logical/Relational (&&, ||, !)
+  4. Assignment ( = , +=, -=. \*=, /=, %=)
+  5. Conditional/Ternary (?:)
 
 ### Loops
 
@@ -158,4 +160,29 @@ Solidity supports three types of variables:
 
 ```
     type [] arrayName;
+```
+
+### Enums
+
+- Enums restrict a variable to have one of only few predefined values,
+- The value in this enumerated list are called enums
+
+**Syntax**
+
+```
+enum <enumerator_name> {element 1, elemeent 2, ... , element n}
+```
+
+### Structs
+
+- Structs allows you to create more complicated data types that have multiple properties.
+- They are useful for grouping together related data..
+
+**Syntax**
+
+```
+struct <struct_name> {
+  <data_type> var_1;
+  <data_type> var_2;
+}
 ```
