@@ -186,3 +186,4 @@ struct <struct_name> {
   <data_type> var_2;
 }
 ```
+![image](https://user-images.githubusercontent.com/51270026/221355069-94363766-5909-438d-bad2-551d8d9fd410.png)
