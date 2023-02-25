@@ -267,3 +267,16 @@ struct <struct_name> {
      // block of code
     }
 ```
+![image](https://user-images.githubusercontent.com/51270026/221356533-209aea59-6fba-41f5-9a05-415a1ece5ba8.png)
+
+> Here, using pure in a function ensures that they will not modify the state of the function.
+
+**Function Calling**
+- A function can be invoked my simply writing the name of the function where it has to be called.
+
+** Return Statements**
+- Last statement of the function.
+- Returns values from the function
+
+![image](https://user-images.githubusercontent.com/51270026/221356911-2d4411f7-f5d7-4065-a56b-2579e45dc090.png)
+
