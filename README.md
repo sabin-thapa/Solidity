@@ -95,3 +95,10 @@ Solidity supports three types of variables:
 3. Global variables (variables exist in the global namespace used to get information about the blockchain)
 
 > Since solidity is a statically typed language, the state or local variable type needs to be specified during declaration. Each declared variable always have a default value based on its type.
+
+### Scope of Variables
+- Scope of local variables is limited to the function in which they are defined.
+- Scope of state variables are of three types:
+  1. Public: can be accessed internally as well as via messages.
+  2. Internal: can be accessed only internally from the current contract or contract deriving from it without using this.
+  3. Private: can be accessed only internally from the current contract they are defied not in the derived contrac from it.
