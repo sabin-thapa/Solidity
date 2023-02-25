@@ -186,4 +186,67 @@ struct <struct_name> {
   <data_type> var_2;
 }
 ```
+
 ![image](https://user-images.githubusercontent.com/51270026/221355069-94363766-5909-438d-bad2-551d8d9fd410.png)
+
+### Conversions
+
+- Solidity allows both implicit and explicit conversions.
+- Solidity compiler allows implicit conversion between two data types provided no implicit conversion is possible and there is no loss of information.
+
+1. Implicit Conversions
+
+   a. uint() - converts an expression to an unsigned integer (uint)
+
+   ```
+     bytes memory b = 'Hello World';
+     uint a = uint(b); //a is now 7210465
+   ```
+
+   b. int() - converts an expression to a signed integer (int).
+
+   ```
+     bytes memory b = “Hello World”;
+     int a = int(b); // a is now 7210465
+   ```
+
+   c. address() - converts an expression to an address type.
+
+   ```
+     bytes memory b = “0x742d35Cc6634C0532925a3b844Bc454e4438f44e”;
+     address a = address(b); // a is now 0x742d35Cc6634C0532925a3b844Bc454e4438f44e
+   ```
+
+   d. bytes() - converts an expression to a byte of arrays
+
+   ```
+     uint a = 10;
+     bytes b = bytes(a); //b is now [0x0a]
+   ```
+
+   e. bool() - converts an expression to a boolean type.
+
+   ```
+     bytes memory b = “Hello World”;
+     bool a = bool(b); // a is now true
+   ```
+
+2. Explicit Conversions
+
+   a. Integer converted to smaller type
+
+   - If an integer is converted to a smaller type then the higher-order bits are cut-off.
+
+     ```
+       uint32 a = 0x432178;
+       uint16 b = uint16(a); // b will be 0x2178 now
+     ```
+
+     b.Integer converted to a larger type
+
+   - If an integer is explicitly converted to a larger type, it is padded on the left.
+
+     ```
+       uint16 a = 0x4356;
+       uint32 b = uint32(a); // b will be 0x00004356 now
+     ```
