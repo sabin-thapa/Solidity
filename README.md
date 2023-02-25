@@ -102,3 +102,18 @@ Solidity supports three types of variables:
   1. Public: can be accessed internally as well as via messages.
   2. Internal: can be accessed only internally from the current contract or contract deriving from it without using this.
   3. Private: can be accessed only internally from the current contract they are defied not in the derived contrac from it.
+  
+<hr />
+### Operators
+- Following types of operators are supported:
+    1. Arithmetic (+, -, *, /, %, ++, --)
+    2. Comparison (==, !=, >, <, >=. <=)
+    3. Logical/Relational (&&, ||, !)
+    4. Assignment ( = , +=, -=. *=, /=, %=)
+    5. Conditional/Ternary (?:)
+
+### Loops
+- Following loops are supported:
+    1. while loop
+    2. do ... while loop
+    3. for loop
