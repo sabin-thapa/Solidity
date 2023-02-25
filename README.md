@@ -56,3 +56,42 @@ A Solidity source files can contain an any number of contract definitions, impor
 - A Solidity contract is a collection of code (its functions) and data (its state) that resides at a specific address on the Ethereum blockchain.
 - The line uintstoredData declares a state variable called storedData of type uint and the functions set and get can be used to modify or retrieve the value of the variable.
 <hr />
+
+### **First Application**
+
+![image](https://user-images.githubusercontent.com/51270026/221340502-628fe8ca-d268-4436-b74c-10b30246bf9c.png)
+![image](https://user-images.githubusercontent.com/51270026/221340512-ba8ed866-7944-4042-8910-a130897a50c7.png)
+
+Result:
+![image](https://user-images.githubusercontent.com/51270026/221340574-ab497ac2-0cf9-4148-83f7-c0dfbd25c1f6.png)
+> We got the result: 3 which is true.
+
+### Comments
+ - Anything between // or /* */ is a comment and is ignored by Solidity compiler.
+ ```
+    // This is a comment.
+    /* This is a 
+        multi-line comment
+    */
+ ```
+### Types
+- Boolean - bool: true/false
+- Integer - int/unit: Signed and unsigned integers of varying sizes.
+- Integer - int8 to int256: Signed int from 8 bits to 256 bits.
+- Integer - uint8 to uint256: Unsigned int from 8 bits to 256 bits.
+
+### Address
+address holds the 20 byte value representing the size of an Ethereum address. An address can be used to get the balance using .balance method and can be used to transfer balance to another address using .transfer method.
+```
+    address x = 0x212;
+    address Myaddress = this;
+    if (x.balance < 10 && myAddress.balance >= 10_ x.transfer(10);
+  
+```
+### Variables
+Solidity supports three types of variables:
+1. State variables (values permanently stored in a contract storage)
+2. Local variables (values are present till function is executing)
+3. Global variables (variables exist in the global namespace used to get information about the blockchain)
+
+> Since solidity is a statically typed language, the state or local variable type needs to be specified during declaration. Each declared variable always have a default value based on its type.
