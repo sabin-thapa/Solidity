@@ -250,3 +250,20 @@ struct <struct_name> {
        uint16 a = 0x4356;
        uint32 b = uint32(a); // b will be 0x00004356 now
      ```
+
+### Style Guide: https://www.tutorialspoint.com/solidity/solidity_style_guide.htm
+
+<hr />
+
+### Functions
+
+- A function is a block of code that can be re-used anywhere in the program.
+- It saves the excessive use of memory and decreases runtime of the program.
+
+**Declaration**
+
+```
+  function function_name(parameter_list) scope returns(return_type) {
+     // block of code
+    }
+```
